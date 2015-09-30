@@ -1,14 +1,11 @@
 {
   "name": "example-02-stateful-react",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server --content-base public/"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "react": "^0.14.0-rc1",
     "react-dom": "^0.14.0-rc1"
