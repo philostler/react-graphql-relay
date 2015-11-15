@@ -1,0 +1,1664 @@
+{
+  "slides": [
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/tcofoXF.gif",
+          "type": "Image",
+          "x": 371,
+          "y": 22,
+          "scale": {
+            "x": 0.3541666666666667,
+            "y": 0.3541666666666667,
+            "width": 85,
+            "height": 113.33333333333334
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "customClasses": "loader-circle"
+        },
+        {
+          "src": "http://i.imgur.com/iUgFkUi.png",
+          "type": "Image",
+          "x": 196,
+          "y": 540,
+          "scale": {
+            "x": 0.17543859649122806,
+            "y": 0.17543859649122806,
+            "width": 100,
+            "height": 89.47368421052632
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/pUlgGfb.png",
+          "type": "Image",
+          "x": 731,
+          "y": 542,
+          "scale": {
+            "x": 0.245,
+            "y": 0.245,
+            "width": 98,
+            "height": 98
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/5t9gpdD.png",
+          "type": "Image",
+          "x": 460,
+          "y": 540,
+          "scale": {
+            "x": 0.17333333333333337,
+            "y": 0.17333333333333337,
+            "width": 104.00000000000001,
+            "height": 104.00000000000001
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": false,
+      "active": false,
+      "x": 180,
+      "y": 180,
+      "background": "bg-transparent"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 463,
+          "y": 327,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font>hi.</font>",
+          "size": 96,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 1,
+      "selected": false,
+      "active": false,
+      "x": 460,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 344,
+          "y": 64,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font>Phil Ostler</font>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tQ2rqSb.jpg",
+          "type": "Image",
+          "x": 354,
+          "y": 282,
+          "scale": {
+            "x": 0.3046875,
+            "y": 0.3046875,
+            "width": 156,
+            "height": 156
+          },
+          "imageType": "JPG",
+          "selected": false,
+          "customClasses": "circle"
+        },
+        {
+          "src": "http://i.imgur.com/FzsYGri.jpg",
+          "type": "Image",
+          "x": 493,
+          "y": 282,
+          "scale": {
+            "x": 0.3875,
+            "y": 0.3875,
+            "width": 155,
+            "height": 155
+          },
+          "imageType": "JPG",
+          "selected": false,
+          "customClasses": "circle"
+        },
+        {
+          "src": "http://i.imgur.com/tQ0BSL5.png",
+          "type": "Image",
+          "x": 354,
+          "y": 612,
+          "scale": {
+            "x": 0.5493934142114385,
+            "y": 0.5493934142114385,
+            "width": 317,
+            "height": 67.57538994800693
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "x": 740,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/n1iDW5Z.png",
+          "type": "Image",
+          "x": 227,
+          "y": 23,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 392,
+          "y": 568,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<font>React</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "x": 1020,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/BqCL8vQ.png",
+          "type": "Image",
+          "x": 68,
+          "y": 21,
+          "scale": {
+            "x": 0.8525,
+            "y": 0.8525,
+            "width": 341,
+            "height": 341
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 500,
+          "y": 144,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<font>GraphQL</font>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/dYfOCJx.png",
+          "type": "Image",
+          "x": 53,
+          "y": 347,
+          "scale": {
+            "x": 0.6433333333333333,
+            "y": 0.6433333333333333,
+            "width": 386,
+            "height": 386
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 567,
+          "y": 481,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<font>Relay</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "x": 1300,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 203,
+          "y": 150,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: center;\">What is React?</div>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/SCTCCiZ.png",
+          "type": "Image",
+          "x": 329,
+          "y": 472,
+          "scale": {
+            "x": 0.11444444444444445,
+            "y": 0.11444444444444445,
+            "width": 103,
+            "height": 103
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/Sufbmh3.png",
+          "type": "Image",
+          "x": 578,
+          "y": 479,
+          "scale": {
+            "x": 0.15,
+            "y": 0.15,
+            "width": 153,
+            "height": 102
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 355,
+          "y": 613,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font>Open Sourced 2013</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "x": 1580,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 142,
+          "y": 150,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: center;\">Why do you care?</div>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/9CZ4I6r.png",
+          "type": "Image",
+          "x": 403,
+          "y": 382,
+          "scale": {
+            "x": 0.365,
+            "y": 0.365,
+            "width": 219,
+            "height": 205.13
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/SCTCCiZ.png",
+          "type": "Image",
+          "x": 417,
+          "y": 467,
+          "scale": {
+            "x": 0.057777777777777775,
+            "y": 0.057777777777777775,
+            "width": 52,
+            "height": 52
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/Sufbmh3.png",
+          "type": "Image",
+          "x": 550,
+          "y": 475,
+          "scale": {
+            "x": 0.07450980392156863,
+            "y": 0.07450980392156863,
+            "width": 76,
+            "height": 50.666666666666664
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "x": 1860,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 322,
+          "y": 53,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: center;\">UI Today</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 211,
+          "y": 344,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font>Build me a view component...</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 2140,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 322,
+          "y": 53,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: center;\">UI Today</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 465,
+          "y": 232,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<div style=\"text-align: center;\">View</div><font><div style=\"text-align: center;\">Controller</div></font>",
+          "selected": false
+        },
+        {
+          "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" preserveAspectRatio=\"none\" viewBox=\"0 0 80 80\"><circle cx=\"40\" cy=\"40\" r=\"40\" /></svg>",
+          "type": "Shape",
+          "x": 317,
+          "y": 241,
+          "scale": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "fill": "#0061b4"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 8,
+      "selected": false,
+      "active": false,
+      "markdown": "<pre style='color:#000000;background:#ffffff; margin-top:400px;'><span style='color:#800000; font-weight:bold; '>var</span> MyView <span style='color:#808030; '>=</span> Backbone<span style='color:#808030; '>.</span>View<span style='color:#808030; '>.</span>extend<span style='color:#808030; '>(</span><span style='color:#800080; '>{</span>\n  tagName<span style='color:#800080; '>:</span> <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>myElement</span><span style='color:#800000; '>\"</span><span style='color:#808030; '>,</span>\n  events<span style='color:#800080; '>:</span> <span style='color:#800080; '>{</span>\n    <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>click .login</span><span style='color:#800000; '>\"</span><span style='color:#800080; '>:</span> <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>doLogin</span><span style='color:#800000; '>\"</span>\n  <span style='color:#800080; '>}</span><span style='color:#808030; '>,</span>\n  initialize<span style='color:#800080; '>:</span> <span style='color:#800000; font-weight:bold; '>function</span><span style='color:#808030; '>(</span><span style='color:#808030; '>)</span> <span style='color:#800080; '>{</span>\n    <span style='color:#800000; font-weight:bold; '>this</span><span style='color:#808030; '>.</span>listenTo<span style='color:#808030; '>(</span><span style='color:#800000; font-weight:bold; '>this</span><span style='color:#808030; '>.</span>model<span style='color:#808030; '>,</span> <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>change</span><span style='color:#800000; '>\"</span><span style='color:#808030; '>,</span> <span style='color:#800000; font-weight:bold; '>this</span><span style='color:#808030; '>.</span>render<span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>\n  <span style='color:#800080; '>}</span><span style='color:#808030; '>,</span>\n  doLogin<span style='color:#800080; '>:</span> <span style='color:#800000; font-weight:bold; '>function</span><span style='color:#808030; '>(</span><span style='color:#808030; '>)</span> <span style='color:#800080; '>{</span>\n    <span style='color:#696969; '>// Log me in...</span>\n  <span style='color:#800080; '>}</span><span style='color:#808030; '>,</span>\n  render<span style='color:#800080; '>:</span> <span style='color:#800000; font-weight:bold; '>function</span><span style='color:#808030; '>(</span><span style='color:#808030; '>)</span> <span style='color:#800080; '>{</span>\n    <span style='color:#696969; '>// Render my view...</span>\n  <span style='color:#800080; '>}</span>\n<span style='color:#800080; '>}</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>\n</pre>",
+      "x": 2420,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 322,
+          "y": 53,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: center;\">UI Today</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 466,
+          "y": 264,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<div style=\"text-align: center;\">Template</div>",
+          "selected": false
+        },
+        {
+          "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" preserveAspectRatio=\"none\" viewBox=\"0 0 80 80\"><circle cx=\"40\" cy=\"40\" r=\"40\" /></svg>",
+          "type": "Shape",
+          "x": 263,
+          "y": 242,
+          "scale": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "fill": "#0061b4",
+          "rotate": 0
+        },
+        {
+          "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" preserveAspectRatio=\"none\" viewBox=\"0 0 80 80\"><circle cx=\"40\" cy=\"40\" r=\"40\" /></svg>",
+          "type": "Shape",
+          "x": 299,
+          "y": 241,
+          "scale": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "fill": "#ec8b00"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 9,
+      "selected": false,
+      "active": false,
+      "markdown": "<pre style='color:#000000;background:#ffffff; margin-top: 400px;'><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>\n  <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>h1</span><span style='color:#a65700; '>></span>{{t \"login<span style='color:#008c00; '>.</span>header\"}}<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>h1</span><span style='color:#a65700; '>></span>\n  <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>\"generic-content\"</span><span style='color:#a65700; '>></span>\n    {{{body}}}\n  <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>\n  <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>button</span><span style='color:#274796; '> </span><span style='color:#074726; '>type</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>\"button\"</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>\"login\"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>button</span><span style='color:#a65700; '>></span>\n<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>\n</pre>",
+      "x": 2420,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 322,
+          "y": 53,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: center;\">UI Today</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 485,
+          "y": 265,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<div style=\"text-align: center;\">Styling</div>",
+          "selected": false
+        },
+        {
+          "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" preserveAspectRatio=\"none\" viewBox=\"0 0 80 80\"><circle cx=\"40\" cy=\"40\" r=\"40\" /></svg>",
+          "type": "Shape",
+          "x": 270,
+          "y": 244,
+          "scale": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "fill": "#0061b4",
+          "rotate": 0
+        },
+        {
+          "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" preserveAspectRatio=\"none\" viewBox=\"0 0 80 80\"><circle cx=\"40\" cy=\"40\" r=\"40\" /></svg>",
+          "type": "Shape",
+          "x": 306,
+          "y": 243,
+          "scale": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "fill": "#ec8b00"
+        },
+        {
+          "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" preserveAspectRatio=\"none\" viewBox=\"0 0 80 80\"><circle cx=\"40\" cy=\"40\" r=\"40\" /></svg>",
+          "type": "Shape",
+          "x": 343,
+          "y": 244,
+          "scale": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "fill": "#72d142"
+        },
+        {
+          "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" preserveAspectRatio=\"none\" viewBox=\"0 0 80 80\"><circle cx=\"40\" cy=\"40\" r=\"40\" /></svg>",
+          "type": "Shape",
+          "x": 343,
+          "y": 244,
+          "scale": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "fill": "#72d142"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 10,
+      "selected": false,
+      "active": false,
+      "markdown": "<pre style='color:#000000;background:#ffffff; margin-top: 400px;'><span style='color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; '>@</span>dark<span style='color:#808030; '>:</span> <span style='color:#808030; '>#</span>010101<span style='color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; '>;</span>\n<span style='color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; '>@</span>light<span style='color:#808030; '>:</span> <span style='color:#808030; '>#</span>f1f1f1<span style='color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; '>;</span>\n\n<span style='color:#808030; '>.</span>generic-content <span style='color:#800080; '>{</span>\n  <span style='color:#bb7977; font-weight:bold; '>background-color</span><span style='color:#808030; '>:</span> @dark<span style='color:#800080; '>;</span>\n  <span style='color:#bb7977; font-weight:bold; '>color</span><span style='color:#808030; '>:</span> @light<span style='color:#800080; '>;</span>\n<span style='color:#800080; '>}</span>\n<span style='color:#808030; '>.</span>box <span style='color:#800080; '>{</span>\n  <span style='color:#bb7977; font-weight:bold; '>background-color</span><span style='color:#808030; '>:</span> saturate<span style='color:#808030; '>(</span>@dark<span style='color:#808030; '>,</span> <span style='color:#008c00; '>5</span><span style='color:#006600; '>%</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>\n  <span style='color:#bb7977; font-weight:bold; '>color</span><span style='color:#808030; '>:</span> darkenen<span style='color:#808030; '>(</span>@light<span style='color:#808030; '>,</span> <span style='color:#008c00; '>5</span><span style='color:#006600; '>%</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>\n<span style='color:#800080; '>}</span>\n</pre>",
+      "x": 2420,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 325.09178266004614,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: center;\">UI Today</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 182,
+          "y": 498,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<div style=\"text-align: center;\">3 technologies for 1 component</div>",
+          "selected": false
+        },
+        {
+          "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" preserveAspectRatio=\"none\" viewBox=\"0 0 80 80\"><circle cx=\"40\" cy=\"40\" r=\"40\" /></svg>",
+          "type": "Shape",
+          "x": 464,
+          "y": 235,
+          "scale": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "fill": "#0061b4",
+          "rotate": 0
+        },
+        {
+          "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" preserveAspectRatio=\"none\" viewBox=\"0 0 80 80\"><circle cx=\"40\" cy=\"40\" r=\"40\" /></svg>",
+          "type": "Shape",
+          "x": 419,
+          "y": 295,
+          "scale": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "fill": "#ec8b00"
+        },
+        {
+          "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" preserveAspectRatio=\"none\" viewBox=\"0 0 80 80\"><circle cx=\"40\" cy=\"40\" r=\"40\" /></svg>",
+          "type": "Shape",
+          "x": 508,
+          "y": 295,
+          "scale": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "fill": "#72d142"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 11,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 2420,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 201,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">Separation of...</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 226,
+          "y": 229,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<div style=\"text-align: center;\">concerns... or technologies?</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 458,
+          "y": 290,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 144,
+          "text": "<div style=\"text-align: left;\"><font color=\"#ff0000\">=</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 169,
+          "y": 431,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<div style=\"text-align: center;\">Hard to write (Boiler plate alert!)<br>Hard to maintain<br>Fragile &amp;&nbsp;Slow<br>Break your mental model&nbsp;<br></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 12,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 2420,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 145,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">React's Approach</div>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/n1iDW5Z.png",
+          "type": "Image",
+          "x": 71,
+          "y": 349,
+          "scale": {
+            "x": 0.3929824561403509,
+            "y": 0.3929824561403509,
+            "width": 224,
+            "height": 200.42105263157896
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 377,
+          "y": 249,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<ul><li><span style=\"line-height: normal;\">Encapsulated components</span></li></ul><div><br></div><ul><li><span style=\"line-height: normal;\">Virtual DOM</span></li></ul><div><br></div><div><ul><li><span style=\"line-height: normal;\">Unidirectional data flow</span></li></ul><div><br></div></div><div><ul><li><span style=\"line-height: normal;\">Optional JSX for markup</span></li></ul></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 13,
+      "selected": false,
+      "active": false,
+      "x": 3820,
+      "y": 740
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 255,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">React Demo</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 177,
+          "y": 332,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 120,
+          "text": "<font color=\"#59dafe\">Hello React!</font><br>",
+          "selected": false,
+          "rotate": -0.26
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 14,
+      "selected": false,
+      "active": false,
+      "x": 4100,
+      "y": 740
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 218,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">React Demo 2</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 129,
+          "y": 333,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 120,
+          "text": "<font color=\"#59dafe\">Stateful&nbsp;React!</font><br>",
+          "selected": false,
+          "rotate": -0.26
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 15,
+      "selected": false,
+      "active": false,
+      "x": 4380,
+      "y": 740
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 232,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">Render Cycle</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 193,
+          "y": 271,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: left;\">1. State change (but not to the DOM)</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">2a. Compare the rendered output to...</div><div style=\"text-align: left;\">2b. ...the Virtual DOM via a diff op</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">3. Replaces only what's changed</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">= Faster!</div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 16,
+      "selected": false,
+      "active": false,
+      "x": 4660,
+      "y": 740
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 269,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">Vs \"Angles\"</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 140,
+          "y": 370,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<ul><li><span style=\"color: rgb(89, 218, 254); line-height: normal;\">Bristol</span><br></li><li><span style=\"color: rgb(89, 218, 254); line-height: normal;\">San Francisco</span></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 580,
+          "y": 372,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<ul><li><span style=\"color: rgb(89, 218, 254); line-height: normal;\">Bristol</span><br></li><li><span style=\"color: rgb(89, 218, 254); line-height: normal;\">Las Vegas</span></li><li><span style=\"color: rgb(89, 218, 254); line-height: normal;\">London</span></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 197,
+          "y": 273,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "Before",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 612,
+          "y": 270,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "After",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 307,
+          "y": 598,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "How many DOM updates?",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 17,
+      "selected": false,
+      "active": false,
+      "x": 4940,
+      "y": 740
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 269,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">Vs \"Angles\"</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 140,
+          "y": 370,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<ul><li><span style=\"color: rgb(89, 218, 254); line-height: normal;\">Bristol</span><br></li><li><span style=\"color: rgb(89, 218, 254); line-height: normal;\">San Francisco</span></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 580,
+          "y": 372,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<ul><li><span style=\"color: rgb(89, 218, 254); line-height: normal;\">Bristol</span><br></li><li><span style=\"color: rgb(89, 218, 254); line-height: normal;\">Las Vegas</span></li><li><span style=\"color: rgb(89, 218, 254); line-height: normal;\">London</span></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 400,
+          "y": 231,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "Angles = 3<br>React = 2<br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 18,
+      "selected": false,
+      "active": false,
+      "x": 5220,
+      "y": 1020
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 328,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">More +'s</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 187,
+          "y": 203,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: left;\"><ul><li><span style=\"line-height: normal;\">Encourages clean encapsulated components</span></li><li><span style=\"line-height: normal;\">Reusability win!</span></li><li><span style=\"line-height: normal;\">No browser required, runs on Node</span></li><li><span style=\"line-height: normal;\">= Isomorphic Javascript Applications</span></li><li><span style=\"line-height: normal;\">React Native (iOS, Android coming soon...)</span></li></ul></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 19,
+      "selected": false,
+      "active": false,
+      "markdown": "<pre style='color:#000000;background:#ffffff; margin-top: 500px;'><span style='color:#800000; font-weight:bold; '>var</span> App <span style='color:#808030; '>=</span> React<span style='color:#808030; '>.</span>createClass<span style='color:#808030; '>(</span><span style='color:#800080; '>{</span>\n  render<span style='color:#800080; '>:</span> <span style='color:#800000; font-weight:bold; '>function</span><span style='color:#808030; '>(</span><span style='color:#808030; '>)</span> <span style='color:#800080; '>{</span>\n    <span style='color:#800000; font-weight:bold; '>return</span> <span style='color:#808030; '>(</span>\n      <span style='color:#808030; '>&lt;</span>TabBarIOS<span style='color:#808030; '>></span>\n        <span style='color:#808030; '>&lt;</span>TabBarIOS<span style='color:#808030; '>.</span>Item title<span style='color:#808030; '>=</span><span style='color:#800000; '>\"</span><span style='color:#0000e6; '>React Native</span><span style='color:#800000; '>\"</span> selected<span style='color:#808030; '>=</span><span style='color:#800080; '>{</span><span style='color:#0f4d75; '>true</span><span style='color:#800080; '>}</span><span style='color:#808030; '>></span>\n          <span style='color:#808030; '>&lt;</span>NavigatorIOS initialRoute<span style='color:#808030; '>=</span><span style='color:#800080; '>{</span><span style='color:#800080; '>{</span> title<span style='color:#800080; '>:</span> <span style='color:#800000; '>'</span><span style='color:#0000e6; '>React Native</span><span style='color:#800000; '>'</span> <span style='color:#800080; '>}</span><span style='color:#800080; '>}</span> <span style='color:#808030; '>/</span><span style='color:#808030; '>></span>\n        <span style='color:#808030; '>&lt;</span><span style='color:#808030; '>/</span>TabBarIOS<span style='color:#808030; '>.</span>Item<span style='color:#808030; '>></span>\n      <span style='color:#808030; '>&lt;</span><span style='color:#808030; '>/</span>TabBarIOS<span style='color:#808030; '>></span>\n</pre>",
+      "x": 5500,
+      "y": 1020
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 218,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">React Demo 3</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 225,
+          "y": 327,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 120,
+          "text": "<font color=\"#59dafe\">Hot React!</font><br>",
+          "selected": false,
+          "rotate": -0.26
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 20,
+      "selected": false,
+      "active": false,
+      "x": 5780,
+      "y": 1020
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/BqCL8vQ.png",
+          "type": "Image",
+          "x": 407,
+          "y": 234,
+          "scale": {
+            "x": 0.525,
+            "y": 0.525,
+            "width": 210,
+            "height": 210
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/dYfOCJx.png",
+          "type": "Image",
+          "x": 410,
+          "y": 468,
+          "scale": {
+            "x": 0.3416666666666667,
+            "y": 0.3416666666666667,
+            "width": 205,
+            "height": 205
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 148,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">GraphQL &amp; Relay</div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 21,
+      "selected": false,
+      "active": false,
+      "x": 1300,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 210,
+          "y": 53,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: center;\">UI Data Today</div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 22,
+      "selected": false,
+      "active": false,
+      "markdown": "<pre style='color:#000000;background:#ffffff; margin-top: 250px'>$<span style='color:#808030; '>.</span>ajax<span style='color:#808030; '>(</span><span style='color:#800080; '>{</span>\n  url<span style='color:#800080; '>:</span> <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>server/end/point</span><span style='color:#800000; '>\"</span><span style='color:#808030; '>,</span>\n<span style='color:#800080; '>}</span><span style='color:#808030; '>)</span><span style='color:#808030; '>.</span>done<span style='color:#808030; '>(</span><span style='color:#800000; font-weight:bold; '>function</span><span style='color:#808030; '>(</span>response<span style='color:#808030; '>)</span> <span style='color:#800080; '>{</span>\n  <span style='color:#696969; '>// Process and hand off to application</span>\n<span style='color:#800080; '>}</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>\n\n<span style='color:#696969; '>// GET http://www.example.com/users</span>\n<span style='color:#696969; '>// GET http://www.example.com/users/123</span>\n<span style='color:#696969; '>// GET http://www.example.com/comments</span>\n\n<span style='color:#696969; '>// GET http://www.example.com/comments/123</span>\n<span style='color:#800080; '>{</span>\n  forename<span style='color:#800080; '>:</span> <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>David</span><span style='color:#800000; '>\"</span>\n  surname<span style='color:#800080; '>:</span> <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>Smith</span><span style='color:#800000; '>\"</span><span style='color:#808030; '>,</span>\n  dob<span style='color:#800080; '>:</span> <span style='color:#008c00; '>25</span>\n<span style='color:#800080; '>}</span>\n</pre>",
+      "x": 2140,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 127,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">Data flow we have</div>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/m1KQOTe.png",
+          "type": "Image",
+          "x": 137,
+          "y": 231,
+          "scale": {
+            "x": 0.475195822454308,
+            "y": 0.475195822454308,
+            "width": 727.9999999999999,
+            "height": 485.6501305483028
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 23,
+      "selected": false,
+      "active": false,
+      "x": 1300,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/tyUX9Wu.png",
+          "type": "Image",
+          "x": 103,
+          "y": 239,
+          "scale": {
+            "x": 0.4731823599523242,
+            "y": 0.4731823599523242,
+            "width": 794,
+            "height": 469.39690107270565
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 122,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">Data flow we want</div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 24,
+      "selected": false,
+      "active": false,
+      "x": 6900,
+      "y": 1300
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/BqCL8vQ.png",
+          "type": "Image",
+          "x": 16,
+          "y": 298,
+          "scale": {
+            "x": 0.42250000000000004,
+            "y": 0.42250000000000004,
+            "width": 169.00000000000003,
+            "height": 169.00000000000003
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 101,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">GraphQL Principles</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 214,
+          "y": 251,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 32,
+          "text": "1. Data needs of a component are an internal requirement<br>&nbsp; &nbsp; &nbsp;= I need the data I'm displaying/using<br><br>2. Components data needs are composable<br><br>3. Components requirements dictate the data structure<br><br>4. Transfer over the wire only what you need<br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 25,
+      "selected": false,
+      "active": false,
+      "x": 7180,
+      "y": 1300
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 168,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">Query Language</div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 26,
+      "selected": false,
+      "active": false,
+      "markdown": "<pre style='color:#000000;background:#ffffff; margin-top: 200px;'><span style='color:#800080; '>{</span> <span style='color:#696969; '>// Query</span>\n  user<span style='color:#808030; '>(</span>id<span style='color:#800080; '>:</span> <span style='color:#008c00; '>3500401</span><span style='color:#808030; '>)</span> <span style='color:#800080; '>{</span>\n    id<span style='color:#808030; '>,</span>\n    name<span style='color:#808030; '>,</span>\n    profilePicture<span style='color:#808030; '>(</span>size<span style='color:#800080; '>:</span> <span style='color:#008c00; '>50</span><span style='color:#808030; '>)</span>  <span style='color:#800080; '>{</span>\n      uri<span style='color:#808030; '>,</span>\n      width<span style='color:#808030; '>,</span>\n      height\n    <span style='color:#800080; '>}</span>\n  <span style='color:#800080; '>}</span>\n<span style='color:#800080; '>}</span>\n\n<span style='color:#800080; '>{</span> <span style='color:#696969; '>// Result</span>\n  <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>user</span><span style='color:#800000; '>\"</span> <span style='color:#800080; '>:</span> <span style='color:#800080; '>{</span>\n    <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>id</span><span style='color:#800000; '>\"</span><span style='color:#800080; '>:</span> <span style='color:#008c00; '>3500401</span><span style='color:#808030; '>,</span>\n    <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>name</span><span style='color:#800000; '>\"</span><span style='color:#800080; '>:</span> <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>Jing Chen</span><span style='color:#800000; '>\"</span><span style='color:#808030; '>,</span>\n    <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>profilePicture</span><span style='color:#800000; '>\"</span><span style='color:#800080; '>:</span> <span style='color:#800080; '>{</span>\n      <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>uri</span><span style='color:#800000; '>\"</span><span style='color:#800080; '>:</span> <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>http://someurl.cdn/pic.jpg</span><span style='color:#800000; '>\"</span><span style='color:#808030; '>,</span>\n      <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>width</span><span style='color:#800000; '>\"</span><span style='color:#800080; '>:</span> <span style='color:#008c00; '>50</span><span style='color:#808030; '>,</span>\n      <span style='color:#800000; '>\"</span><span style='color:#0000e6; '>height</span><span style='color:#800000; '>\"</span><span style='color:#800080; '>:</span> <span style='color:#008c00; '>50</span>\n    <span style='color:#800080; '>}</span>\n  <span style='color:#800080; '>}</span>\n<span style='color:#800080; '>}</span>\n</pre>",
+      "x": 7460,
+      "y": 1300
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 181,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">GraphQL Demo</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 60,
+          "y": 326,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 120,
+          "text": "<font color=\"#59dafe\">contains Relay...</font><br>",
+          "selected": false,
+          "rotate": -0.26
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 27,
+      "selected": false,
+      "active": false,
+      "x": 5780,
+      "y": 1020
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 261,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">Did it work?</div>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/UXvY5z1.gif",
+          "type": "Image",
+          "x": 315,
+          "y": 256,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "GIF",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 28,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 344,
+          "y": 54.855069596027676,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: left;\">Thanks!</div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 422,
+          "y": 281,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font color=\"#333333\">@philostler</font>",
+          "selected": true
+        },
+        {
+          "TextBox": {},
+          "x": 124,
+          "y": 437,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font color=\"#333333\">https://github.com/philostler/react-graphql-relay</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 29,
+      "selected": true,
+      "active": true
+    }
+  ],
+  "activeSlide": {
+    "components": [
+      {
+        "TextBox": {},
+        "x": 344,
+        "y": 54.855069596027676,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 96,
+        "text": "<div style=\"text-align: left;\">Thanks!</div>",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 422,
+        "y": 281,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 36,
+        "text": "<font color=\"#333333\">@philostler</font>",
+        "selected": true
+      },
+      {
+        "TextBox": {},
+        "x": 124,
+        "y": 437,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 36,
+        "text": "<font color=\"#333333\">https://github.com/philostler/react-graphql-relay</font>",
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 29,
+    "selected": true,
+    "active": true
+  },
+  "fileName": "react-graphql-relay.strut",
+  "customStylesheet": ".strut-surface .circle {\n  border-radius: 50%;\n  border: #FFF 8px solid;\n  overflow: hidden;\n}\n\n.strut-surface .loader-circle {\n  border: #FFF 100px solid;\n  border-radius: 50%;\n}",
+  "deckVersion": "1.0",
+  "customBackgrounds": {
+    "bgs": []
+  },
+  "overviewX": 1300,
+  "overviewY": 320
+}

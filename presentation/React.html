@@ -1,0 +1,1525 @@
+
+<!-- saved from url=(0059)http://strut.io/editor/preview_export/impress.html#/step-30 -->
+<html style="height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Deck Title</title>
+
+<meta name="description" content="TODO">
+<meta name="author" content="TODO">
+
+<style>
+.componentContainer {
+    position: absolute;
+    line-height: normal;
+    /*-webkit-transform-origin: 135% 135%;
+    -moz-transform-origin: 135% 135%;
+    transform-origin: 135% 135%;*/
+}
+
+.transformContainer {
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<link rel="stylesheet" href="./React_files/default-reset.css">
+<link href="./React_files/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./React_files/default.css" id="theme">
+<link href="./React_files/web-fonts.css" rel="stylesheet" type="text/css">
+<link href="./React_files/backgroundClasses.css" rel="stylesheet" type="text/css">
+<link href="./React_files/surfaceClasses.css" rel="stylesheet" type="text/css">
+
+<link rel="shortcut icon" href="http://strut.io/editor/preview_export/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="http://strut.io/editor/preview_export/apple-touch-icon.png" type="image/png">
+
+<style>
+.reveal.themedArea {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<script async="" src="./React_files/analytics.js"></script><script type="text/javascript" src="./React_files/dataset-shim.js"></script>
+<script type="text/javascript" src="./React_files/impress.js"></script>
+
+<script src="./React_files/onready.js"></script>
+<script src="./React_files/loadPresentation.js"></script>
+<script>
+ready(function() {
+    if (document.getElementById('launched-placeholder'))
+        loadPresentation();
+
+    if (!window.presStarted) {
+        startPres(document, window);
+        impress().init();   
+    }
+
+    if ("ontouchstart" in document.documentElement) { 
+        document.querySelector(".hint").innerHTML = 
+            "<p>Tap on the left or right to navigate</p>";
+    }
+});
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-42322531-1', 'strut.io');
+    ga('send', 'pageview');
+    </script>
+</head>
+<body class="impress-supported impress-enabled" style="height: 100%; overflow: hidden;">
+<style type="text/css">
+.strut-surface .circle {
+  border-radius: 50%;
+  border: #FFF 8px solid;
+  overflow: hidden;
+}
+
+.strut-surface .loader-circle {
+  border: #FFF 100px solid;
+  border-radius: 50%;
+}
+</style>
+<style>
+
+</style>
+<style>
+
+
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+</style>
+<!-- This is a work around / hack to get the user's browser to download the fonts 
+ if they decide to save the presentation. -->
+<div style="visibility: hidden; width: 0px; height: 0px">
+<img src="./React_files/Lato-Bold.woff">
+<img src="./React_files/HammersmithOne.woff">
+<img src="./React_files/Droid-Sans-Mono.woff">
+<img src="./React_files/Gorditas-Regular.woff">
+<img src="./React_files/FredokaOne-Regular.woff">
+<img src="./React_files/Ubuntu.woff">
+<img src="./React_files/Ubuntu-Bold.woff">
+<img src="./React_files/PressStart2P-Regular.woff">
+<img src="./React_files/Lato-BoldItalic.woff">
+<img src="./React_files/AbrilFatface-Regular.woff">
+<img src="./React_files/Lato-Regular.woff">
+</div>
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div class="bg  strut-surface">
+<div class="bg innerBg strut-slide-29">
+<div id="impress" style="position: absolute; transform-origin: left top 0px; transition: all 500ms ease-in-out 250ms; transform-style: preserve-3d; top: 50%; left: 50%; transform: perspective(3000px) scale(0.333333);"><div style="position: absolute; transform-origin: left top 0px; transition: all 500ms ease-in-out 0ms; transform-style: preserve-3d; transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg) translate3d(-13667px, -25129px, 0px);">
+	
+		
+			<div class="step future" data-state="strut-slide-0" data-x="2457.6" data-y="2764.8" data-scale="3" id="step-1" style="position: absolute; transform: translate(-50%, -50%) translate3d(2457.6px, 2764.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-0" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer loader-circle" style="top: 22px; left: 371px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 85px; height: 113.33px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.35, 0.35);
+-moz-transform: scale(0.35, 0.35);
+transform: scale(0.35, 0.35)">
+<img src="./React_files/tcofoXF.gif">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 540px; left: 196px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 100px; height: 89.47px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.18, 0.18);
+-moz-transform: scale(0.18, 0.18);
+transform: scale(0.18, 0.18)">
+<img src="./React_files/iUgFkUi.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 542px; left: 731px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 98px; height: 98px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.25, 0.25);
+-moz-transform: scale(0.25, 0.25);
+transform: scale(0.25, 0.25)">
+<img src="./React_files/pUlgGfb.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 540px; left: 460px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 104px; height: 104px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.17, 0.17);
+-moz-transform: scale(0.17, 0.17);
+transform: scale(0.17, 0.17)">
+<img src="./React_files/5t9gpdD.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-1" data-x="6280.533333333334" data-y="2764.8" data-scale="3" id="step-2" style="position: absolute; transform: translate(-50%, -50%) translate3d(6280.53px, 2764.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-1" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 327px; left: 463px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font>hi.</font>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-2" data-x="10103.466666666667" data-y="2764.8" data-scale="3" id="step-3" style="position: absolute; transform: translate(-50%, -50%) translate3d(10103.5px, 2764.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-2" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 64px; left: 344px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 72px;" class="antialias">
+<font>Phil Ostler</font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer circle" style="top: 282px; left: 354px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 156px; height: 156px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.3, 0.3);
+-moz-transform: scale(0.3, 0.3);
+transform: scale(0.3, 0.3)">
+<img src="./React_files/tQ2rqSb.jpg">
+</div>
+</div>
+			
+			<div class="componentContainer circle" style="top: 282px; left: 493px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 155px; height: 155px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.39, 0.39);
+-moz-transform: scale(0.39, 0.39);
+transform: scale(0.39, 0.39)">
+<img src="./React_files/FzsYGri.jpg">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 612px; left: 354px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 317px; height: 67.58px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.55, 0.55);
+-moz-transform: scale(0.55, 0.55);
+transform: scale(0.55, 0.55)">
+<img src="./React_files/tQ0BSL5.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-3" data-x="13926.4" data-y="2764.8" data-scale="3" id="step-4" style="position: absolute; transform: translate(-50%, -50%) translate3d(13926.4px, 2764.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-3" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 23px; left: 227px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="./React_files/n1iDW5Z.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 568px; left: 392px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font>React</font>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-4" data-x="17749.333333333332" data-y="2764.8" data-scale="3" id="step-5" style="position: absolute; transform: translate(-50%, -50%) translate3d(17749.3px, 2764.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-4" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 21px; left: 68px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 341px; height: 341px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.85, 0.85);
+-moz-transform: scale(0.85, 0.85);
+transform: scale(0.85, 0.85)">
+<img src="./React_files/BqCL8vQ.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 144px; left: 500px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font>GraphQL</font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 347px; left: 53px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 386px; height: 386px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.64, 0.64);
+-moz-transform: scale(0.64, 0.64);
+transform: scale(0.64, 0.64)">
+<img src="./React_files/dYfOCJx.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 481px; left: 567px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font>Relay</font>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-5" data-x="21572.266666666666" data-y="2764.8" data-scale="3" id="step-6" style="position: absolute; transform: translate(-50%, -50%) translate3d(21572.3px, 2764.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-5" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 150px; left: 203px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: center;">What is React?</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 472px; left: 329px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 103px; height: 103px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.11, 0.11);
+-moz-transform: scale(0.11, 0.11);
+transform: scale(0.11, 0.11)">
+<img src="./React_files/SCTCCiZ.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 479px; left: 578px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 153px; height: 102px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.15, 0.15);
+-moz-transform: scale(0.15, 0.15);
+transform: scale(0.15, 0.15)">
+<img src="./React_files/Sufbmh3.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 613px; left: 355px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+<font>Open Sourced 2013</font>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-6" data-x="2498.56" data-y="7587.84" data-scale="3" id="step-7" style="position: absolute; transform: translate(-50%, -50%) translate3d(2498.56px, 7587.84px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-6" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 150px; left: 142px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: center;">Why do you care?</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 382px; left: 403px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 219px; height: 205.13px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.37, 0.37);
+-moz-transform: scale(0.37, 0.37);
+transform: scale(0.37, 0.37)">
+<img src="./React_files/9CZ4I6r.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 467px; left: 417px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 52px; height: 52px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.06, 0.06);
+-moz-transform: scale(0.06, 0.06);
+transform: scale(0.06, 0.06)">
+<img src="./React_files/SCTCCiZ.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 475px; left: 550px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 76px; height: 50.67px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.07, 0.07);
+-moz-transform: scale(0.07, 0.07);
+transform: scale(0.07, 0.07)">
+<img src="./React_files/Sufbmh3.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-7" data-x="7072.426666666666" data-y="7464.96" data-scale="3" id="step-8" style="position: absolute; transform: translate(-50%, -50%) translate3d(7072.43px, 7464.96px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-7" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 53px; left: 322px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: center;">UI Today</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 344px; left: 211px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<font>Build me a view component...</font>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-8" data-x="11414.186666666666" data-y="7142.4" data-scale="3" id="step-9" style="position: absolute; transform: translate(-50%, -50%) translate3d(11414.2px, 7142.4px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-8" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<pre style="color:#000000;background:#ffffff; margin-top:400px;"><span style="color:#800000; font-weight:bold; ">var</span> MyView <span style="color:#808030; ">=</span> Backbone<span style="color:#808030; ">.</span>View<span style="color:#808030; ">.</span>extend<span style="color:#808030; ">(</span><span style="color:#800080; ">{</span>
+  tagName<span style="color:#800080; ">:</span> <span style="color:#800000; ">"</span><span style="color:#0000e6; ">myElement</span><span style="color:#800000; ">"</span><span style="color:#808030; ">,</span>
+  events<span style="color:#800080; ">:</span> <span style="color:#800080; ">{</span>
+    <span style="color:#800000; ">"</span><span style="color:#0000e6; ">click .login</span><span style="color:#800000; ">"</span><span style="color:#800080; ">:</span> <span style="color:#800000; ">"</span><span style="color:#0000e6; ">doLogin</span><span style="color:#800000; ">"</span>
+  <span style="color:#800080; ">}</span><span style="color:#808030; ">,</span>
+  initialize<span style="color:#800080; ">:</span> <span style="color:#800000; font-weight:bold; ">function</span><span style="color:#808030; ">(</span><span style="color:#808030; ">)</span> <span style="color:#800080; ">{</span>
+    <span style="color:#800000; font-weight:bold; ">this</span><span style="color:#808030; ">.</span>listenTo<span style="color:#808030; ">(</span><span style="color:#800000; font-weight:bold; ">this</span><span style="color:#808030; ">.</span>model<span style="color:#808030; ">,</span> <span style="color:#800000; ">"</span><span style="color:#0000e6; ">change</span><span style="color:#800000; ">"</span><span style="color:#808030; ">,</span> <span style="color:#800000; font-weight:bold; ">this</span><span style="color:#808030; ">.</span>render<span style="color:#808030; ">)</span><span style="color:#800080; ">;</span>
+  <span style="color:#800080; ">}</span><span style="color:#808030; ">,</span>
+  doLogin<span style="color:#800080; ">:</span> <span style="color:#800000; font-weight:bold; ">function</span><span style="color:#808030; ">(</span><span style="color:#808030; ">)</span> <span style="color:#800080; ">{</span>
+    <span style="color:#696969; ">// Log me in...</span>
+  <span style="color:#800080; ">}</span><span style="color:#808030; ">,</span>
+  render<span style="color:#800080; ">:</span> <span style="color:#800000; font-weight:bold; ">function</span><span style="color:#808030; ">(</span><span style="color:#808030; ">)</span> <span style="color:#800080; ">{</span>
+    <span style="color:#696969; ">// Render my view...</span>
+  <span style="color:#800080; ">}</span>
+<span style="color:#800080; ">}</span><span style="color:#808030; ">)</span><span style="color:#800080; ">;</span>
+</pre>
+			</div>
+			
+			<div class="componentContainer " style="top: 53px; left: 322px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: center;">UI Today</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 232px; left: 465px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<div style="text-align: center;">View</div><font><div style="text-align: center;">Controller</div></font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 241px; left: 317px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 100px; height: 100px;">
+<div class="transformContainer" style="-webkit-transform: scale(, );
+-moz-transform: scale(, );
+transform: scale(, )">
+<svg fill="#0061b4" height="100" width="100" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 80 80"><circle cx="40" cy="40" r="40"></circle></svg>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-9" data-x="17380.693333333333" data-y="7234.56" data-scale="3" id="step-10" style="position: absolute; transform: translate(-50%, -50%) translate3d(17380.7px, 7234.56px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-9" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<pre style="color:#000000;background:#ffffff; margin-top: 400px;"><span style="color:#a65700; ">&lt;</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#a65700; ">&gt;</span>
+  <span style="color:#a65700; ">&lt;</span><span style="color:#800000; font-weight:bold; ">h1</span><span style="color:#a65700; ">&gt;</span>{{t "login<span style="color:#008c00; ">.</span>header"}}<span style="color:#a65700; ">&lt;/</span><span style="color:#800000; font-weight:bold; ">h1</span><span style="color:#a65700; ">&gt;</span>
+  <span style="color:#a65700; ">&lt;</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#274796; "> </span><span style="color:#074726; ">class</span><span style="color:#808030; ">=</span><span style="color:#0000e6; ">"generic-content"</span><span style="color:#a65700; ">&gt;</span>
+    {{{body}}}
+  <span style="color:#a65700; ">&lt;/</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#a65700; ">&gt;</span>
+  <span style="color:#a65700; ">&lt;</span><span style="color:#800000; font-weight:bold; ">button</span><span style="color:#274796; "> </span><span style="color:#074726; ">type</span><span style="color:#808030; ">=</span><span style="color:#0000e6; ">"button"</span><span style="color:#274796; "> </span><span style="color:#074726; ">class</span><span style="color:#808030; ">=</span><span style="color:#0000e6; ">"login"</span><span style="color:#a65700; ">&gt;</span><span style="color:#a65700; ">&lt;/</span><span style="color:#800000; font-weight:bold; ">button</span><span style="color:#a65700; ">&gt;</span>
+<span style="color:#a65700; ">&lt;/</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#a65700; ">&gt;</span>
+</pre>
+			</div>
+			
+			<div class="componentContainer " style="top: 53px; left: 322px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: center;">UI Today</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 264px; left: 466px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<div style="text-align: center;">Template</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 242px; left: 263px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 100px; height: 100px;">
+<div class="transformContainer" style="-webkit-transform: scale(, );
+-moz-transform: scale(, );
+transform: scale(, )">
+<svg fill="#0061b4" height="100" width="100" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 80 80"><circle cx="40" cy="40" r="40"></circle></svg>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 241px; left: 299px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 100px; height: 100px;">
+<div class="transformContainer" style="-webkit-transform: scale(, );
+-moz-transform: scale(, );
+transform: scale(, )">
+<svg fill="#ec8b00" height="100" width="100" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 80 80"><circle cx="40" cy="40" r="40"></circle></svg>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-10" data-x="21968.213333333333" data-y="7080.96" data-scale="3" id="step-11" style="position: absolute; transform: translate(-50%, -50%) translate3d(21968.2px, 7080.96px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-10" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<pre style="color:#000000;background:#ffffff; margin-top: 400px;"><span style="color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; ">@</span>dark<span style="color:#808030; ">:</span> <span style="color:#808030; ">#</span>010101<span style="color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; ">;</span>
+<span style="color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; ">@</span>light<span style="color:#808030; ">:</span> <span style="color:#808030; ">#</span>f1f1f1<span style="color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; ">;</span>
+
+<span style="color:#808030; ">.</span>generic-content <span style="color:#800080; ">{</span>
+  <span style="color:#bb7977; font-weight:bold; ">background-color</span><span style="color:#808030; ">:</span> @dark<span style="color:#800080; ">;</span>
+  <span style="color:#bb7977; font-weight:bold; ">color</span><span style="color:#808030; ">:</span> @light<span style="color:#800080; ">;</span>
+<span style="color:#800080; ">}</span>
+<span style="color:#808030; ">.</span>box <span style="color:#800080; ">{</span>
+  <span style="color:#bb7977; font-weight:bold; ">background-color</span><span style="color:#808030; ">:</span> saturate<span style="color:#808030; ">(</span>@dark<span style="color:#808030; ">,</span> <span style="color:#008c00; ">5</span><span style="color:#006600; ">%</span><span style="color:#808030; ">)</span><span style="color:#800080; ">;</span>
+  <span style="color:#bb7977; font-weight:bold; ">color</span><span style="color:#808030; ">:</span> darkenen<span style="color:#808030; ">(</span>@light<span style="color:#808030; ">,</span> <span style="color:#008c00; ">5</span><span style="color:#006600; ">%</span><span style="color:#808030; ">)</span><span style="color:#800080; ">;</span>
+<span style="color:#800080; ">}</span>
+</pre>
+			</div>
+			
+			<div class="componentContainer " style="top: 53px; left: 322px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: center;">UI Today</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 265px; left: 485px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<div style="text-align: center;">Styling</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 244px; left: 270px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 100px; height: 100px;">
+<div class="transformContainer" style="-webkit-transform: scale(, );
+-moz-transform: scale(, );
+transform: scale(, )">
+<svg fill="#0061b4" height="100" width="100" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 80 80"><circle cx="40" cy="40" r="40"></circle></svg>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 243px; left: 306px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 100px; height: 100px;">
+<div class="transformContainer" style="-webkit-transform: scale(, );
+-moz-transform: scale(, );
+transform: scale(, )">
+<svg fill="#ec8b00" height="100" width="100" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 80 80"><circle cx="40" cy="40" r="40"></circle></svg>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 244px; left: 343px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 100px; height: 100px;">
+<div class="transformContainer" style="-webkit-transform: scale(, );
+-moz-transform: scale(, );
+transform: scale(, )">
+<svg fill="#72d142" height="100" width="100" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 80 80"><circle cx="40" cy="40" r="40"></circle></svg>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 244px; left: 343px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 100px; height: 100px;">
+<div class="transformContainer" style="-webkit-transform: scale(, );
+-moz-transform: scale(, );
+transform: scale(, )">
+<svg fill="#72d142" height="100" width="100" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 80 80"><circle cx="40" cy="40" r="40"></circle></svg>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-11" data-x="2266.4533333333334" data-y="12057.6" data-scale="3" id="step-12" style="position: absolute; transform: translate(-50%, -50%) translate3d(2266.45px, 12057.6px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-11" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 325.09px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: center;">UI Today</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 498px; left: 182px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<div style="text-align: center;">3 technologies for 1 component</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 235px; left: 464px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 100px; height: 100px;">
+<div class="transformContainer" style="-webkit-transform: scale(, );
+-moz-transform: scale(, );
+transform: scale(, )">
+<svg fill="#0061b4" height="100" width="100" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 80 80"><circle cx="40" cy="40" r="40"></circle></svg>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 295px; left: 419px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 100px; height: 100px;">
+<div class="transformContainer" style="-webkit-transform: scale(, );
+-moz-transform: scale(, );
+transform: scale(, )">
+<svg fill="#ec8b00" height="100" width="100" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 80 80"><circle cx="40" cy="40" r="40"></circle></svg>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 295px; left: 508px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 100px; height: 100px;">
+<div class="transformContainer" style="-webkit-transform: scale(, );
+-moz-transform: scale(, );
+transform: scale(, )">
+<svg fill="#72d142" height="100" width="100" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 80 80"><circle cx="40" cy="40" r="40"></circle></svg>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-12" data-x="6649.173333333333" data-y="12241.92" data-scale="3" id="step-13" style="position: absolute; transform: translate(-50%, -50%) translate3d(6649.17px, 12241.9px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-12" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 201px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">Separation of...</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 229px; left: 226px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<div style="text-align: center;">concerns... or technologies?</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 290px; left: 458px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 144px;" class="antialias">
+<div style="text-align: left;"><font color="#ff0000">=</font></div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 431px; left: 169px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<div style="text-align: center;">Hard to write (Boiler plate alert!)<br>Hard to maintain<br>Fragile &amp;&nbsp;Slow<br>Break your mental model&nbsp;<br></div>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-13" data-x="10977.28" data-y="11996.16" data-scale="3" id="step-14" style="position: absolute; transform: translate(-50%, -50%) translate3d(10977.3px, 11996.2px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-13" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 145px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">React's Approach</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 349px; left: 71px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 224px; height: 200.42px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.39, 0.39);
+-moz-transform: scale(0.39, 0.39);
+transform: scale(0.39, 0.39)">
+<img src="./React_files/n1iDW5Z.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 249px; left: 377px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<ul><li><span style="line-height: normal;">Encapsulated components</span></li></ul><div><br></div><ul><li><span style="line-height: normal;">Virtual DOM</span></li></ul><div><br></div><div><ul><li><span style="line-height: normal;">Unidirectional data flow</span></li></ul><div><br></div></div><div><ul><li><span style="line-height: normal;">Optional JSX for markup</span></li></ul></div>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-14" data-x="15851.52" data-y="11765.76" data-scale="3" id="step-15" style="position: absolute; transform: translate(-50%, -50%) translate3d(15851.5px, 11765.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-14" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 255px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">React Demo</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 332px; left: 177px; -webkit-transform: rotate(-0.26rad)  ; -moz-transform: rotate(-0.26rad)  ; transform: rotate(-0.26rad)  ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 120px;" class="antialias">
+<font color="#59dafe">Hello React!</font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-15" data-x="21913.6" data-y="11489.28" data-scale="3" id="step-16" style="position: absolute; transform: translate(-50%, -50%) translate3d(21913.6px, 11489.3px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-15" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 218px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">React Demo 2</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 333px; left: 129px; -webkit-transform: rotate(-0.26rad)  ; -moz-transform: rotate(-0.26rad)  ; transform: rotate(-0.26rad)  ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 120px;" class="antialias">
+<font color="#59dafe">Stateful&nbsp;React!</font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-16" data-x="27743.573333333334" data-y="11719.68" data-scale="3" id="step-17" style="position: absolute; transform: translate(-50%, -50%) translate3d(27743.6px, 11719.7px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-16" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 232px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">Render Cycle</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 271px; left: 193px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+<div style="text-align: left;">1. State change (but not to the DOM)</div><div style="text-align: left;"><br></div><div style="text-align: left;">2a. Compare the rendered output to...</div><div style="text-align: left;">2b. ...the Virtual DOM via a diff op</div><div style="text-align: left;"><br></div><div style="text-align: left;">3. Replaces only what's changed</div><div style="text-align: left;"><br></div><div style="text-align: left;">= Faster!</div>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-17" data-x="2225.4933333333333" data-y="16680.96" data-scale="3" id="step-18" style="position: absolute; transform: translate(-50%, -50%) translate3d(2225.49px, 16681px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-17" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 269px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">Vs "Angles"</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 370px; left: 140px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+<ul><li><span style="color: rgb(89, 218, 254); line-height: normal;">Bristol</span><br></li><li><span style="color: rgb(89, 218, 254); line-height: normal;">San Francisco</span></li></ul>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 372px; left: 580px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+<ul><li><span style="color: rgb(89, 218, 254); line-height: normal;">Bristol</span><br></li><li><span style="color: rgb(89, 218, 254); line-height: normal;">Las Vegas</span></li><li><span style="color: rgb(89, 218, 254); line-height: normal;">London</span></li></ul>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 273px; left: 197px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+Before
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 270px; left: 612px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+After
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 598px; left: 307px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+How many DOM updates?
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-18" data-x="8110.08" data-y="16680.96" data-scale="3" id="step-19" style="position: absolute; transform: translate(-50%, -50%) translate3d(8110.08px, 16681px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-18" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 269px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">Vs "Angles"</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 370px; left: 140px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+<ul><li><span style="color: rgb(89, 218, 254); line-height: normal;">Bristol</span><br></li><li><span style="color: rgb(89, 218, 254); line-height: normal;">San Francisco</span></li></ul>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 372px; left: 580px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+<ul><li><span style="color: rgb(89, 218, 254); line-height: normal;">Bristol</span><br></li><li><span style="color: rgb(89, 218, 254); line-height: normal;">Las Vegas</span></li><li><span style="color: rgb(89, 218, 254); line-height: normal;">London</span></li></ul>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 231px; left: 400px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+Angles = 3<br>React = 2<br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-19" data-x="13134.506666666666" data-y="16419.84" data-scale="3" id="step-20" style="position: absolute; transform: translate(-50%, -50%) translate3d(13134.5px, 16419.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-19" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<pre style="color:#000000;background:#ffffff; margin-top: 500px;"><span style="color:#800000; font-weight:bold; ">var</span> App <span style="color:#808030; ">=</span> React<span style="color:#808030; ">.</span>createClass<span style="color:#808030; ">(</span><span style="color:#800080; ">{</span>
+  render<span style="color:#800080; ">:</span> <span style="color:#800000; font-weight:bold; ">function</span><span style="color:#808030; ">(</span><span style="color:#808030; ">)</span> <span style="color:#800080; ">{</span>
+    <span style="color:#800000; font-weight:bold; ">return</span> <span style="color:#808030; ">(</span>
+      <span style="color:#808030; ">&lt;</span>TabBarIOS<span style="color:#808030; ">&gt;</span>
+        <span style="color:#808030; ">&lt;</span>TabBarIOS<span style="color:#808030; ">.</span>Item title<span style="color:#808030; ">=</span><span style="color:#800000; ">"</span><span style="color:#0000e6; ">React Native</span><span style="color:#800000; ">"</span> selected<span style="color:#808030; ">=</span><span style="color:#800080; ">{</span><span style="color:#0f4d75; ">true</span><span style="color:#800080; ">}</span><span style="color:#808030; ">&gt;</span>
+          <span style="color:#808030; ">&lt;</span>NavigatorIOS initialRoute<span style="color:#808030; ">=</span><span style="color:#800080; ">{</span><span style="color:#800080; ">{</span> title<span style="color:#800080; ">:</span> <span style="color:#800000; ">'</span><span style="color:#0000e6; ">React Native</span><span style="color:#800000; ">'</span> <span style="color:#800080; ">}</span><span style="color:#800080; ">}</span> <span style="color:#808030; ">/</span><span style="color:#808030; ">&gt;</span>
+        <span style="color:#808030; ">&lt;</span><span style="color:#808030; ">/</span>TabBarIOS<span style="color:#808030; ">.</span>Item<span style="color:#808030; ">&gt;</span>
+      <span style="color:#808030; ">&lt;</span><span style="color:#808030; ">/</span>TabBarIOS<span style="color:#808030; ">&gt;</span>
+</pre>
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 328px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">More +'s</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 203px; left: 187px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+<div style="text-align: left;"><ul><li><span style="line-height: normal;">Encourages clean encapsulated components</span></li><li><span style="line-height: normal;">Reusability win!</span></li><li><span style="line-height: normal;">No browser required, runs on Node</span></li><li><span style="line-height: normal;">= Isomorphic Javascript Applications</span></li><li><span style="line-height: normal;">React Native (iOS, Android coming soon...)</span></li></ul></div>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-20" data-x="18486.613333333335" data-y="16327.68" data-scale="3" id="step-21" style="position: absolute; transform: translate(-50%, -50%) translate3d(18486.6px, 16327.7px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-20" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 218px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">React Demo 3</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 327px; left: 225px; -webkit-transform: rotate(-0.26rad)  ; -moz-transform: rotate(-0.26rad)  ; transform: rotate(-0.26rad)  ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 120px;" class="antialias">
+<font color="#59dafe">Hot React!</font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-21" data-x="23101.44" data-y="16112.64" data-scale="3" id="step-22" style="position: absolute; transform: translate(-50%, -50%) translate3d(23101.4px, 16112.6px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-21" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 234px; left: 407px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 210px; height: 210px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.53, 0.53);
+-moz-transform: scale(0.53, 0.53);
+transform: scale(0.53, 0.53)">
+<img src="./React_files/BqCL8vQ.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 468px; left: 410px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 205px; height: 205px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.34, 0.34);
+-moz-transform: scale(0.34, 0.34);
+transform: scale(0.34, 0.34)">
+<img src="./React_files/dYfOCJx.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 148px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">GraphQL &amp; Relay</div>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-22" data-x="2512.213333333333" data-y="21135.36" data-scale="3" id="step-23" style="position: absolute; transform: translate(-50%, -50%) translate3d(2512.21px, 21135.4px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-22" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<pre style="color:#000000;background:#ffffff; margin-top: 250px">$<span style="color:#808030; ">.</span>ajax<span style="color:#808030; ">(</span><span style="color:#800080; ">{</span>
+  url<span style="color:#800080; ">:</span> <span style="color:#800000; ">"</span><span style="color:#0000e6; ">server/end/point</span><span style="color:#800000; ">"</span><span style="color:#808030; ">,</span>
+<span style="color:#800080; ">}</span><span style="color:#808030; ">)</span><span style="color:#808030; ">.</span>done<span style="color:#808030; ">(</span><span style="color:#800000; font-weight:bold; ">function</span><span style="color:#808030; ">(</span>response<span style="color:#808030; ">)</span> <span style="color:#800080; ">{</span>
+  <span style="color:#696969; ">// Process and hand off to application</span>
+<span style="color:#800080; ">}</span><span style="color:#808030; ">)</span><span style="color:#800080; ">;</span>
+
+<span style="color:#696969; ">// GET http://www.example.com/users</span>
+<span style="color:#696969; ">// GET http://www.example.com/users/123</span>
+<span style="color:#696969; ">// GET http://www.example.com/comments</span>
+
+<span style="color:#696969; ">// GET http://www.example.com/comments/123</span>
+<span style="color:#800080; ">{</span>
+  forename<span style="color:#800080; ">:</span> <span style="color:#800000; ">"</span><span style="color:#0000e6; ">David</span><span style="color:#800000; ">"</span>
+  surname<span style="color:#800080; ">:</span> <span style="color:#800000; ">"</span><span style="color:#0000e6; ">Smith</span><span style="color:#800000; ">"</span><span style="color:#808030; ">,</span>
+  dob<span style="color:#800080; ">:</span> <span style="color:#008c00; ">25</span>
+<span style="color:#800080; ">}</span>
+</pre>
+			</div>
+			
+			<div class="componentContainer " style="top: 53px; left: 210px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: center;">UI Data Today</div>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-23" data-x="7973.546666666667" data-y="21012.48" data-scale="3" id="step-24" style="position: absolute; transform: translate(-50%, -50%) translate3d(7973.55px, 21012.5px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-23" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 127px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">Data flow we have</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 231px; left: 137px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 728px; height: 485.65px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.48, 0.48);
+-moz-transform: scale(0.48, 0.48);
+transform: scale(0.48, 0.48)">
+<img src="./React_files/m1KQOTe.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-24" data-x="13312" data-y="20951.04" data-scale="3" id="step-25" style="position: absolute; transform: translate(-50%, -50%) translate3d(13312px, 20951px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-24" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 239px; left: 103px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 794px; height: 469.4px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.47, 0.47);
+-moz-transform: scale(0.47, 0.47);
+transform: scale(0.47, 0.47)">
+<img src="./React_files/tyUX9Wu.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 122px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">Data flow we want</div>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-25" data-x="18609.493333333332" data-y="21043.2" data-scale="3" id="step-26" style="position: absolute; transform: translate(-50%, -50%) translate3d(18609.5px, 21043.2px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-25" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 298px; left: 16px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 169px; height: 169px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.42, 0.42);
+-moz-transform: scale(0.42, 0.42);
+transform: scale(0.42, 0.42)">
+<img src="./React_files/BqCL8vQ.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 101px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">GraphQL Principles</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 251px; left: 214px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 32px;" class="antialias">
+1. Data needs of a component are an internal requirement<br>&nbsp; &nbsp; &nbsp;= I need the data I'm displaying/using<br><br>2. Components data needs are composable<br><br>3. Components requirements dictate the data structure<br><br>4. Transfer over the wire only what you need<br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-26" data-x="24111.786666666667" data-y="20812.8" data-scale="3" id="step-27" style="position: absolute; transform: translate(-50%, -50%) translate3d(24111.8px, 20812.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-26" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<pre style="color:#000000;background:#ffffff; margin-top: 200px;"><span style="color:#800080; ">{</span> <span style="color:#696969; ">// Query</span>
+  user<span style="color:#808030; ">(</span>id<span style="color:#800080; ">:</span> <span style="color:#008c00; ">3500401</span><span style="color:#808030; ">)</span> <span style="color:#800080; ">{</span>
+    id<span style="color:#808030; ">,</span>
+    name<span style="color:#808030; ">,</span>
+    profilePicture<span style="color:#808030; ">(</span>size<span style="color:#800080; ">:</span> <span style="color:#008c00; ">50</span><span style="color:#808030; ">)</span>  <span style="color:#800080; ">{</span>
+      uri<span style="color:#808030; ">,</span>
+      width<span style="color:#808030; ">,</span>
+      height
+    <span style="color:#800080; ">}</span>
+  <span style="color:#800080; ">}</span>
+<span style="color:#800080; ">}</span>
+
+<span style="color:#800080; ">{</span> <span style="color:#696969; ">// Result</span>
+  <span style="color:#800000; ">"</span><span style="color:#0000e6; ">user</span><span style="color:#800000; ">"</span> <span style="color:#800080; ">:</span> <span style="color:#800080; ">{</span>
+    <span style="color:#800000; ">"</span><span style="color:#0000e6; ">id</span><span style="color:#800000; ">"</span><span style="color:#800080; ">:</span> <span style="color:#008c00; ">3500401</span><span style="color:#808030; ">,</span>
+    <span style="color:#800000; ">"</span><span style="color:#0000e6; ">name</span><span style="color:#800000; ">"</span><span style="color:#800080; ">:</span> <span style="color:#800000; ">"</span><span style="color:#0000e6; ">Jing Chen</span><span style="color:#800000; ">"</span><span style="color:#808030; ">,</span>
+    <span style="color:#800000; ">"</span><span style="color:#0000e6; ">profilePicture</span><span style="color:#800000; ">"</span><span style="color:#800080; ">:</span> <span style="color:#800080; ">{</span>
+      <span style="color:#800000; ">"</span><span style="color:#0000e6; ">uri</span><span style="color:#800000; ">"</span><span style="color:#800080; ">:</span> <span style="color:#800000; ">"</span><span style="color:#0000e6; ">http://someurl.cdn/pic.jpg</span><span style="color:#800000; ">"</span><span style="color:#808030; ">,</span>
+      <span style="color:#800000; ">"</span><span style="color:#0000e6; ">width</span><span style="color:#800000; ">"</span><span style="color:#800080; ">:</span> <span style="color:#008c00; ">50</span><span style="color:#808030; ">,</span>
+      <span style="color:#800000; ">"</span><span style="color:#0000e6; ">height</span><span style="color:#800000; ">"</span><span style="color:#800080; ">:</span> <span style="color:#008c00; ">50</span>
+    <span style="color:#800080; ">}</span>
+  <span style="color:#800080; ">}</span>
+<span style="color:#800080; ">}</span>
+</pre>
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 168px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">Query Language</div>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-27" data-x="2826.24" data-y="24929.28" data-scale="3" id="step-28" style="position: absolute; transform: translate(-50%, -50%) translate3d(2826.24px, 24929.3px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-27" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 181px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">GraphQL Demo</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 326px; left: 60px; -webkit-transform: rotate(-0.26rad)  ; -moz-transform: rotate(-0.26rad)  ; transform: rotate(-0.26rad)  ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 120px;" class="antialias">
+<font color="#59dafe">contains Relay...</font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-28" data-x="8328.533333333333" data-y="24806.4" data-scale="3" id="step-29" style="position: absolute; transform: translate(-50%, -50%) translate3d(8328.53px, 24806.4px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-28" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 261px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">Did it work?</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 256px; left: 315px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="./React_files/UXvY5z1.gif">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step present active" data-state="strut-slide-29" data-x="13666.986666666666" data-y="25128.96" data-scale="3" id="step-30" style="position: absolute; transform: translate(-50%, -50%) translate3d(13667px, 25129px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-29" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 54.86px; left: 344px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<div style="text-align: left;">Thanks!</div>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 281px; left: 422px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+<font color="#333333">@philostler</font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 437px; left: 124px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+<font color="#333333">https://github.com/philostler/react-graphql-relay</font>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+	<div id="overview" class="step future" data-state="strut-slide-overview" data-x="14984.533333333333" data-y="13946.88" data-scale="9" style="position: absolute; transform: translate(-50%, -50%) translate3d(14984.5px, 13946.9px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(9); transform-style: preserve-3d;"></div>
+	
+</div></div>
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+</div>
+</div></body></html>
